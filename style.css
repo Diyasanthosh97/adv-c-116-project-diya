@@ -1,0 +1,19 @@
+button{
+   background-color: rgb(254, 252, 252);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size:20px;
+margin-bottom: 20px;
+}
+button:hover{
+background-color: darkviolet;
+}
+canvas{
+    animation-name:sraavani;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 20px;
+}
+@keyframes sraavani{
+    from{box-shadow: 1px 1px 50px darkviolet;}
+to{box-shadow: 1px 1px 50px deeppink;}
+}
